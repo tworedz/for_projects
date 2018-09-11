@@ -1,0 +1,23 @@
+{
+	"studentInfo":{
+		"FirstName":"Nursultan",
+		"LastName":"Kudaibergenov",
+		"age":19,
+		"University":"KRSU",
+		"course": 2,
+		"City":"Bishkek",
+		"contacts":
+		[
+			"+996*********",
+			"+996*********"
+		]
+	},
+	"UniversityInfo":{
+		"name":"KRSU",
+		"faculty":"NTF",
+		"address":{
+			"streets":"Chui/Almatinka",
+			"contacts":"123456789"
+		}
+	}
+}
