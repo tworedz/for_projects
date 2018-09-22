@@ -1,5 +1,5 @@
-from collections import Counter, OrderedDict
-class OrderedCounter(Counter, OrderedDict):
-	pass
-[print(*i) for i in OrderedCounter(sorted(input())).most_common(3) ]
-print(sorted(input()))
+from datetime import timedelta, datetime
+
+pat = "%a %d %b %Y %H:%M:%S %z"
+for _ in range(int(input())):
+	print(int( (abs(datetime.strptime(input(), pat) - datetime.strptime(input(), pat))).total_seconds()))
